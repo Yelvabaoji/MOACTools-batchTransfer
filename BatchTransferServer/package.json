@@ -1,0 +1,16 @@
+{
+  "name": "batchtransferserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chain3": "^0.1.21",
+    "express": "^4.17.1",
+    "keccak": "^2.0.0"
+  }
+}
