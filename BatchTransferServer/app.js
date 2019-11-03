@@ -41,7 +41,6 @@ app.post('/getWalletInfo', (req, res, next) => {
   var privateKey = req.body.key
   var isERC20 = req.body.isERC20
   var erc20Address = req.body.erc20Address
-
   // check whether private key is valid
   if (privateKey.length != 64 && privateKey.length != 66) {
     res.send({"result": "private key length is invalid."});  

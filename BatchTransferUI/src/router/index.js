@@ -1,4 +1,4 @@
-const BATCH_TRANSFER_SERVER_URL = 'http://47.92.110.121:3030/batchTransfer'
+const BATCH_TRANSFER_SERVER_URL = 'http://localhost:3031/'
 
 import Vue from 'vue'
 import VueRouter from 'vue-router'
